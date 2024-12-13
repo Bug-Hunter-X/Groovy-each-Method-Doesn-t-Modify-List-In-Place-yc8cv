@@ -1,0 +1,1 @@
+This example demonstrates a common gotcha in Groovy: the `each` method on collections does not modify the original collection.  Many developers expect it to, leading to unexpected results. The solution shows how to use `eachWithIndex` to correctly modify the list in place.
